@@ -1,4 +1,4 @@
-package CursoProgramacao.EstruuturaSequencial;
+package CursoProgramacao.EstruturaSequencial;
 
 public class areaTrapezio {
     public static void main(String[] args) {
