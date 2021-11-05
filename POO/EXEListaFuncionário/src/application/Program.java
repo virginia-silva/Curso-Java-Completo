@@ -1,9 +1,7 @@
 package application;
 
-import com.sun.org.apache.bcel.internal.classfile.SourceFile;
 import entities.Employee;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -21,7 +19,7 @@ public class Program {
         System.out.printf("How many employees will be registered? ");
         int n = sc.nextInt();
 
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++){ // este for serve para mostrar todos os funcionários, então depois de colocar quantos funcionários eu quero, o for mostrara todos até que acabe.
 
             System.out.println();
             System.out.println("Employee #" + (i + 1) + ":");
@@ -33,9 +31,9 @@ public class Program {
             System.out.printf("Salary: ");
             double salary = sc.nextDouble();
 
-            Employee emp = new Employee(id, name, salary);
+            Employee emp = new Employee(id, name, salary); // instacio o novo empregado
 
-            list.add(emp);
+            list.add(emp);//add o empregado a lista.
         }
 
         System.out.printf("Enter the employee id that have salary increase : ");

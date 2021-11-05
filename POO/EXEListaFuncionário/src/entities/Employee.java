@@ -39,8 +39,8 @@ public class Employee {
         this.salary = salary;
     }
 
-    public void increaseSalary(double percentege){
-        salary += salary * percentege /100.0;
+    public void increaseSalary(double percentage){
+        salary += salary * percentage /100.0;
     }
 
     public String toString(){
