@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Conta Bancaria/src"/>
+	<classpathentry kind="src" path="date/src"/>
+	<classpathentry kind="src" path="enum/src"/>
+	<classpathentry kind="src" path="exeListaFuncionário/src"/>
+	<classpathentry kind="src" path="exeMatriz2/src"/>
+	<classpathentry kind="src" path="exeMatrizes/src"/>
+	<classpathentry kind="src" path="exeVetores/src"/>
+	<classpathentry kind="src" path="Listas/src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Vetores/src"/>
+	<classpathentry kind="output" path="Conta Bancaria/out/production/Conta Bancaria"/>
+</classpath>
