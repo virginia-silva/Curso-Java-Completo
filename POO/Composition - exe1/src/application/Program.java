@@ -29,7 +29,7 @@ public class Program {
 		String departmentName = sc.nextLine();
 		System.out.printf("Name: ");
 		String workerName = sc.nextLine();
-		System.out.print("Level (JUNIOR, MID_LEVEL, SENIOR : ");
+		System.out.print("Level (JUNIOR, MID_LEVEL, SENIOR) : ");
 		String workerLevel = sc.nextLine();
 		System.out.print("Base salary: ");
 		double baseSalary = sc.nextDouble();
